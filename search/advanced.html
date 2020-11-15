@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AdvancedSearch</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="menuitems">
+            <a class="linksabove" href="index.html">Google Search</a>
+        </div>
+        <div id="advancedbox">
+            <div id="advance">Advanced Search</div>
+            <div class="no-wrap"></div>
+            <br><br>
+            <form action="https://google.com/search">
+                <div class="wordsh">Find pages with...</div>
+                To do this in the search box
+                <div>&nbsp; </div>
+                <div class="wordgrp"><div class="label1">all these words:</div>
+                    <input class="textinput" type="text" name="as_q" >
+                    <label class="textgrp"> Type the important words:  tricolor rat terrier</label>
+                </div>                
+                <div>&nbsp;</div>
+                <div class="wordgrp"><div class="label1">this exact word or phrase:</div>
+                    <input class="textinput" type="text" name="as_epq" >
+                    <label class="textgrp">Put exact words in quotes:  "rat terrier"</label>
+                </div>
+                <div>&nbsp; </div>
+                <div class="wordgrp">
+                    <div class="label1">any of these words:</div>
+                    <input class="textinput" type="text" name="as_oq" >
+                    <label class="textgrp">Type OR between all the words you want:  miniature OR standard</label>
+                </div>
+                <div>&nbsp; </div>                
+                <div class="wordgrp">
+                    <div class="label1">none of these words:</div>
+                    <input class="textinput" type="text" name="as_eq">
+                    <label class="textgrp">Put a minus sign just before words you don't want:<br> -rodent, -"Jack Russell"</label>
+                </div>
+                <div>&nbsp; </div>
+                <div id="butt">
+                    <div><input id="adv-button" type="submit" value="Advanced search"></div>
+                </div>                   
+            </form>
+        </div>        
+    </body>
+</html>

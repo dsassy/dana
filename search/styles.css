@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+#contents {
+    width: 100%;
+    text-align: center;
+    margin-top: 5.5em;
+}
+#textbox {
+    border-radius: 20px 20px 20px 20px;
+    width: 38%;
+    height: 40px;
+    border: 1px solid rgb(214, 216, 219);
+    margin-bottom: 1.1em;
+}
+.logoimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchbut {
+    height: 30px;
+    width: 9.5em;
+    border-style: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .95em;
+    color: rgb(61, 60, 60);
+    margin-right: .75em;
+    border-radius: 5px;
+}
+#menuitems {
+    text-align: right;
+}
+.linksabove {
+    margin-right: .75em;
+}
+#advancedbox {
+    text-align: left;
+    padding-left: .75em;
+}
+.wordgrp {
+    width: 80%;
+}
+.textgrp {
+    font-size: .9em;
+    font-weight: lighter;
+    color: gray;
+    display: inline-block;
+}
+.label1 {
+    width: 16%;
+    float: left;
+}
+.textinput{
+    width: 35em;
+    border: 1px solid rgb(214, 216, 219);
+    height: 25px;
+    border-top: 2px solid rgb(214, 216, 219);
+}
+.no-wrap {
+    clear: both;
+}
+#adv-button {
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border-style: hidden;
+    height: 30px;
+    float: right;
+}
+#butt {
+    width: 44%;
+}
+#advance {
+    color: red;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    font-size: 1.5em;
+}
+.wordsh {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 43.5%;
+    font-size: medium;
+}
